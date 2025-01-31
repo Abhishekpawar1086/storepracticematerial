@@ -3,15 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Enhanced Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to My Simple Website</h1>
+        <h1>Welcome to My Enhanced Website</h1>
+        
+        <!-- Dark Mode Toggle -->
+        <button id="dark-mode-toggle">Toggle Dark Mode</button>
+
+        <!-- Typing Effect -->
         <p id="typing-text"></p>
-        <button id="click-me">Click Me!</button>
-        <button id="reset">Reset</button>
+
+        <!-- Counter -->
+        <div class="counter">
+            <p>Count: <span id="count">0</span></p>
+            <button id="increment">Increment</button>
+            <button id="reset">Reset</button>
+        </div>
+
+        <!-- Form -->
+        <form id="user-form">
+            <label for="name">Enter your name:</label>
+            <input type="text" id="name" name="name" required>
+            <button type="submit">Submit</button>
+        </form>
+        <p id="form-output"></p>
+
+        <!-- Dynamic Content -->
+        <button id="load-content">Load More Content</button>
+        <div id="dynamic-content"></div>
     </div>
     <script src="script.js"></script>
 </body>
